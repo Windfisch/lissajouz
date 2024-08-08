@@ -1197,7 +1197,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:BC557"
+		(symbol "Transistor_BJT:BC546"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -1212,7 +1212,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC557"
+			(property "Value" "BC546"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1232,7 +1232,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1242,7 +1242,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
+			(property "Description" "0.1A Ic, 65V Vce, Small Signal NPN Transistor, TO-92"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1251,7 +1251,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "PNP Transistor"
+			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1269,7 +1269,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC557_0_1"
+			(symbol "BC546_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -1308,7 +1320,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -1330,7 +1342,7 @@
 					)
 				)
 			)
-			(symbol "BC557_1_1"
+			(symbol "BC546_1_1"
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
@@ -1351,7 +1363,7 @@
 				)
 				(pin input line
 					(at -5.08 0 0)
-					(length 5.715)
+					(length 5.08)
 					(name "B"
 						(effects
 							(font
@@ -2577,6 +2589,12 @@
 		(uuid "47b8a34d-7732-4964-8265-bcf5f004246b")
 	)
 	(junction
+		(at 234.315 111.125)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47f63fee-00fe-4765-ba25-5280346a4150")
+	)
+	(junction
 		(at 66.04 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2629,12 +2647,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cea170c-77fe-477a-8124-0b91fed03b98")
-	)
-	(junction
-		(at 234.315 111.125)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72428d31-8dd9-4bec-9850-aa5ffb085172")
 	)
 	(junction
 		(at 102.87 130.175)
@@ -3416,6 +3428,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.315 111.125) (xy 241.935 111.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "692bdb0b-f553-4a36-a684-8c686afe9432")
+	)
+	(wire
+		(pts
 			(xy 46.355 71.12) (xy 48.895 71.12)
 		)
 		(stroke
@@ -3753,16 +3775,6 @@
 			(type default)
 		)
 		(uuid "ad0fe419-8ea4-433d-b515-540ceffe3d0c")
-	)
-	(wire
-		(pts
-			(xy 234.315 111.125) (xy 241.935 111.125)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad8d0682-bcb5-4511-af9c-593ff572ee3a")
 	)
 	(wire
 		(pts
@@ -4251,6 +4263,16 @@
 		)
 		(uuid "78045885-6f1c-4a38-8fa1-4b4348714200")
 	)
+	(text ".options gmin=1e-10\n.options abstol=1e-10\n.options reltol=0.005\n.options cshunt=1e-15\n* .options rshunt=1T\n"
+		(exclude_from_sim no)
+		(at 64.77 174.625 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a8150b33-784d-4ee8-8533-2c0e65869426")
+	)
 	(text "differential pair\n(current controlled\namplification)"
 		(exclude_from_sim no)
 		(at 219.71 133.985 0)
@@ -4285,6 +4307,26 @@
 		(uuid "0024ebcb-b1ca-47ac-84e5-3eabcacc9eea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.57 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "tri_x"
+		(shape input)
+		(at 193.675 139.7 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "058c9b24-166e-4c75-898f-11ef0fb827a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.675 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6977,6 +7019,72 @@
 		)
 	)
 	(symbol
+		(lib_id "voice_board-rescue:VCC-power")
+		(at 250.825 112.395 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b0e4d09-920a-47a5-9e61-ddcbb868c3a9")
+		(property "Reference" "#PWR024"
+			(at 250.825 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 253.365 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.825 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.825 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.825 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e53024cd-37bd-421b-88f5-90ff9b1bf4e5")
+		)
+		(instances
+			(project "lissajouz"
+				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 34.925 117.475 90)
 		(mirror x)
@@ -7107,7 +7215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "type=\"B\" model=\"v=20m\""
+		(property "Sim.Params" "type=\"B\" model=\"v=5000m\""
 			(at 207.772 58.9393 0)
 			(effects
 				(font
@@ -7377,8 +7485,8 @@
 	)
 	(symbol
 		(lib_id "voice_board-rescue:VCC-power")
-		(at 234.315 111.125 0)
-		(mirror y)
+		(at 223.52 155.575 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7386,7 +7494,7 @@
 		(dnp no)
 		(uuid "600d7c4c-712a-4619-80ec-d5bd85b7c9b7")
 		(property "Reference" "#PWR033"
-			(at 234.315 114.935 0)
+			(at 223.52 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7395,7 +7503,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 236.855 109.22 0)
+			(at 220.98 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7403,7 +7511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.315 111.125 0)
+			(at 223.52 155.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7412,7 +7520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.315 111.125 0)
+			(at 223.52 155.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7421,7 +7529,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.315 111.125 0)
+			(at 223.52 155.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7444,7 +7552,6 @@
 	(symbol
 		(lib_id "Amplifier_Operational:LM324")
 		(at 87.63 104.14 0)
-		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7452,7 +7559,7 @@
 		(dnp no)
 		(uuid "66740a72-9f65-447a-8879-4026975c1091")
 		(property "Reference" "U2"
-			(at 90.17 100.33 0)
+			(at 90.17 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7468,7 +7575,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 86.36 106.68 0)
+			(at 86.36 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,7 +7584,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
-			(at 88.9 109.22 0)
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7577,6 +7684,72 @@
 				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
 					(reference "U2")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "voice_board-rescue:VCC-power")
+		(at 229.87 155.575 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67c754cc-c927-404a-88a7-4d0a3bb1dc41")
+		(property "Reference" "#PWR014"
+			(at 229.87 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57ff3643-026e-4880-8bc7-db1295b24dce")
+		)
+		(instances
+			(project "lissajouz"
+				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
+					(reference "#PWR014")
+					(unit 1)
 				)
 			)
 		)
@@ -7714,72 +7887,7 @@
 		)
 	)
 	(symbol
-		(lib_id "voice_board-rescue:VEE-power")
-		(at 250.825 112.395 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "705a6ac4-8f39-4151-9b13-c4855ecd816c")
-		(property "Reference" "#PWR024"
-			(at 250.825 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VEE"
-			(at 251.2822 108.0008 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.825 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.825 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 250.825 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c38c6b7-2f3d-401f-b00b-40a7d9ce0717")
-		)
-		(instances
-			(project "lissajouz"
-				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC557")
+		(lib_id "Transistor_BJT:BC546")
 		(at 220.98 133.985 0)
 		(mirror x)
 		(unit 1)
@@ -7818,7 +7926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.fairchildsemi.com/ds/BC/BC557.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
 			(at 220.98 133.985 0)
 			(effects
 				(font
@@ -7828,7 +7936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1A Ic, 65V Vce, Small Signal NPN Transistor, TO-92"
 			(at 220.98 133.985 0)
 			(effects
 				(font
@@ -7972,7 +8080,7 @@
 	)
 	(symbol
 		(lib_id "voice_board-rescue:VEE-power")
-		(at 223.52 155.575 180)
+		(at 234.315 111.125 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7980,7 +8088,7 @@
 		(dnp no)
 		(uuid "76f1a325-f096-47b1-a4b2-155c554a2974")
 		(property "Reference" "#PWR031"
-			(at 223.52 151.765 0)
+			(at 234.315 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7989,7 +8097,7 @@
 			)
 		)
 		(property "Value" "VEE"
-			(at 223.0628 159.9692 0)
+			(at 234.7722 106.7308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7997,7 +8105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 155.575 0)
+			(at 234.315 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,7 +8114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 155.575 0)
+			(at 234.315 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8015,7 +8123,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 155.575 0)
+			(at 234.315 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8768,7 +8876,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC557")
+		(lib_id "Transistor_BJT:BC546")
 		(at 232.41 133.985 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8806,7 +8914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.fairchildsemi.com/ds/BC/BC557.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
 			(at 232.41 133.985 0)
 			(effects
 				(font
@@ -8816,7 +8924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1A Ic, 65V Vce, Small Signal NPN Transistor, TO-92"
 			(at 232.41 133.985 0)
 			(effects
 				(font
@@ -9361,7 +9469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "type=\"B\" model=\"v=21m\""
+		(property "Sim.Params" "type=\"B\" model=\"v=5800m\""
 			(at 207.772 76.7193 0)
 			(effects
 				(font
@@ -9468,7 +9576,7 @@
 				)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "10n"
 			(at 99.06 107.95 90)
 			(effects
 				(font
@@ -10140,71 +10248,6 @@
 		)
 	)
 	(symbol
-		(lib_id "voice_board-rescue:VEE-power")
-		(at 229.87 155.575 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bcdc646f-cb6b-40cd-b1d9-a34ea2f5525c")
-		(property "Reference" "#PWR032"
-			(at 229.87 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VEE"
-			(at 229.4128 159.9692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 229.87 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bb84dd2-36c4-4559-be7b-6f234d8ee5f9")
-		)
-		(instances
-			(project "lissajouz"
-				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 73.025 113.665 0)
 		(unit 1)
@@ -10337,7 +10380,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC557")
+		(lib_id "Transistor_BJT:BC546")
 		(at 239.395 116.205 0)
 		(mirror x)
 		(unit 1)
@@ -10376,7 +10419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.fairchildsemi.com/ds/BC/BC557.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
 			(at 239.395 116.205 0)
 			(effects
 				(font
@@ -10386,7 +10429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1A Ic, 65V Vce, Small Signal NPN Transistor, TO-92"
 			(at 239.395 116.205 0)
 			(effects
 				(font
@@ -10587,73 +10630,6 @@
 			(project "lissajouz"
 				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 193.675 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2bda068-891e-4861-a3fa-e6afa65e8d8f")
-		(property "Reference" "#PWR014"
-			(at 193.675 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.675 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.675 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.675 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.675 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f79dffff-4207-4c19-99c5-1790334fe1c2")
-		)
-		(instances
-			(project "lissajouz"
-				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10863,7 +10839,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC557")
+		(lib_id "Transistor_BJT:BC546")
 		(at 229.235 116.205 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10901,7 +10877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.fairchildsemi.com/ds/BC/BC557.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
 			(at 229.235 116.205 0)
 			(effects
 				(font
@@ -10911,7 +10887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1A Ic, 65V Vce, Small Signal NPN Transistor, TO-92"
 			(at 229.235 116.205 0)
 			(effects
 				(font
@@ -11111,7 +11087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "type=\"B\" model=\"v=10m\""
+		(property "Sim.Params" "type=\"B\" model=\"v=100m\""
 			(at 207.137 41.7943 0)
 			(effects
 				(font
@@ -11153,7 +11129,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "33k"
 			(at 212.09 147.955 0)
 			(effects
 				(font
