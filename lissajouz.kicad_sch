@@ -2589,12 +2589,6 @@
 		(uuid "47b8a34d-7732-4964-8265-bcf5f004246b")
 	)
 	(junction
-		(at 234.315 111.125)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47f63fee-00fe-4765-ba25-5280346a4150")
-	)
-	(junction
 		(at 66.04 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2613,12 +2607,6 @@
 		(uuid "5b47720e-9b12-4cde-b91f-9a98e52eabf7")
 	)
 	(junction
-		(at 241.935 121.285)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6018c7fc-c556-4254-a909-e5027f1e8f89")
-	)
-	(junction
 		(at 254 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2629,12 +2617,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6137190e-990f-4566-9a2c-3e3ba54c9534")
-	)
-	(junction
-		(at 234.315 116.205)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63763ee6-0286-4cba-ba48-40aaae09e166")
 	)
 	(junction
 		(at 46.355 27.94)
@@ -3036,16 +3018,6 @@
 		)
 		(uuid "35d1b845-5dff-492a-9682-0d13d2adfaa4")
 	)
-	(polyline
-		(pts
-			(xy 179.705 102.235) (xy 179.705 161.925)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "37907fb7-39a2-473f-8526-770c13c0d78c")
-	)
 	(wire
 		(pts
 			(xy 74.295 114.3) (xy 73.025 114.3)
@@ -3168,16 +3140,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.695 111.125) (xy 234.315 111.125)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "420fc8a0-ceee-4e9f-bb9e-cfe64be2c6d3")
-	)
-	(wire
-		(pts
 			(xy 41.275 147.32) (xy 41.275 149.225)
 		)
 		(stroke
@@ -3286,16 +3248,6 @@
 		)
 		(uuid "54a9b7af-ff9a-4d17-ab7b-47a5da38078d")
 	)
-	(polyline
-		(pts
-			(xy 280.035 102.235) (xy 280.035 161.925)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "55526d98-7c2e-4948-858b-e9ccaf1d8c65")
-	)
 	(wire
 		(pts
 			(xy 28.575 66.04) (xy 31.115 66.04)
@@ -3325,16 +3277,6 @@
 			(type default)
 		)
 		(uuid "5948e5dd-3859-44f7-84b3-ef5664db7052")
-	)
-	(polyline
-		(pts
-			(xy 280.035 102.235) (xy 179.705 102.235)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "597cf448-c044-470f-9526-03cb80a79724")
 	)
 	(wire
 		(pts
@@ -3378,16 +3320,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.825 121.285) (xy 250.825 120.015)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "606dca96-15d3-44eb-bd25-550488b5804a")
-	)
-	(wire
-		(pts
 			(xy 76.835 41.91) (xy 83.185 41.91)
 		)
 		(stroke
@@ -3425,16 +3357,6 @@
 			(type default)
 		)
 		(uuid "647451ad-f81a-44f4-b6a3-4c06d7a51897")
-	)
-	(wire
-		(pts
-			(xy 234.315 111.125) (xy 241.935 111.125)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "692bdb0b-f553-4a36-a684-8c686afe9432")
 	)
 	(wire
 		(pts
@@ -3708,16 +3630,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.315 116.205) (xy 234.315 121.285)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c6add67-bde5-428a-8518-02be98797ea7")
-	)
-	(wire
-		(pts
 			(xy 66.04 125.095) (xy 66.04 128.905)
 		)
 		(stroke
@@ -3905,16 +3817,6 @@
 			(type default)
 		)
 		(uuid "c9ea2448-ac5e-431b-a058-947248ae7098")
-	)
-	(polyline
-		(pts
-			(xy 179.705 161.925) (xy 280.035 161.925)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "ca408988-1f92-49cc-b25c-861da382de7f")
 	)
 	(wire
 		(pts
@@ -4108,16 +4010,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.315 121.285) (xy 241.935 121.285)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6202eea-94c6-48d1-be70-24cbe81285c5")
-	)
-	(wire
-		(pts
 			(xy 58.42 77.47) (xy 57.785 77.47)
 		)
 		(stroke
@@ -4168,16 +4060,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.935 121.285) (xy 250.825 121.285)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff6c4dff-a974-4af4-a99e-ce3ef3866c82")
-	)
-	(wire
-		(pts
 			(xy 247.65 30.48) (xy 247.65 29.21)
 		)
 		(stroke
@@ -4219,6 +4101,16 @@
 		)
 		(uuid "2e55bcd8-c1ff-47cc-8c97-838c69b0953b")
 	)
+	(text "10k-110k\n"
+		(exclude_from_sim no)
+		(at 200.025 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "658dff60-accf-41cc-9bc5-e04805ef6c09")
+	)
 	(text "input preattenuation.\ncontrols distortion"
 		(exclude_from_sim no)
 		(at 208.915 158.115 90)
@@ -4230,38 +4122,6 @@
 		)
 		(uuid "6d819ab9-3806-4f29-af06-19cdae1792da")
 	)
-	(text "Voltage controlled amplifier"
-		(exclude_from_sim no)
-		(at 180.34 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "73f35f15-97e2-42e8-bcce-294fbec988d9")
-	)
-	(text "current mirror as\nvoltage controlled\ncurrent source"
-		(exclude_from_sim no)
-		(at 245.745 127.635 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "78045885-6f1c-4a38-8fa1-4b4348714200")
-	)
-	(text "47k-100k\n"
-		(exclude_from_sim no)
-		(at 262.255 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8551f994-3acd-4d94-839a-a1ad0a5e0e68")
-	)
 	(text ".options gmin=1e-10\n.options abstol=1e-10\n.options reltol=0.005\n.options cshunt=1e-15\n* .options rshunt=1T\n"
 		(exclude_from_sim no)
 		(at 64.77 174.625 0)
@@ -4271,17 +4131,6 @@
 			)
 		)
 		(uuid "a8150b33-784d-4ee8-8533-2c0e65869426")
-	)
-	(text "differential pair\n(current controlled\namplification)"
-		(exclude_from_sim no)
-		(at 219.71 133.985 0)
-		(effects
-			(font
-				(size 0.9906 0.9906)
-			)
-			(justify right bottom)
-		)
-		(uuid "a981eece-1789-4352-982c-177846096c6b")
 	)
 	(text "triangle from VCO mk I"
 		(exclude_from_sim no)
@@ -4358,7 +4207,7 @@
 	)
 	(global_label "V_xfreq"
 		(shape input)
-		(at 26.035 25.4 180)
+		(at 18.415 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4367,7 +4216,7 @@
 		)
 		(uuid "1ccc6abd-d1dd-4032-aa7b-85c4132d8e7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.035 25.4 0)
+			(at 18.415 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +4880,7 @@
 				)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "100n"
 			(at 208.28 135.89 0)
 			(effects
 				(font
@@ -5059,6 +4908,24 @@
 		)
 		(property "Description" ""
 			(at 210.82 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 421.64 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 421.64 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5425,6 +5292,92 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 22.225 25.4 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25b0dff0-f73d-4509-9982-8a57e12472ec")
+		(property "Reference" "R22"
+			(at 22.225 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 22.225 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 22.225 23.622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.225 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.225 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 47.625 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 47.625 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "014ebe0e-11cc-4bd2-9830-70ab1ea116bf")
+		)
+		(pin "2"
+			(uuid "dcf9b89f-1cdd-432e-a1a5-0404a79beb35")
+		)
+		(instances
+			(project "lissajouz"
+				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 46.355 31.75 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5440,7 +5393,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "100k"
 			(at 46.355 31.75 90)
 			(effects
 				(font
@@ -6363,7 +6316,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "100k"
 			(at 34.925 27.94 90)
 			(effects
 				(font
@@ -6408,75 +6361,6 @@
 			(project "lissajouz"
 				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Variable")
-		(at 250.825 116.205 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4119561e-1f48-441a-9da7-09678658a949")
-		(property "Reference" "R36"
-			(at 252.095 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 252.095 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
-			(at 249.047 116.205 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.825 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 250.825 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1a48d80-883c-4581-8cd2-72e8ab65c4eb")
-		)
-		(pin "2"
-			(uuid "391d49e9-57d2-4780-87e0-018e7fe28f40")
-		)
-		(instances
-			(project "lissajouz"
-				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
-					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -7030,72 +6914,6 @@
 			(project "lissajouz"
 				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "voice_board-rescue:VCC-power")
-		(at 250.825 112.395 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b0e4d09-920a-47a5-9e61-ddcbb868c3a9")
-		(property "Reference" "#PWR024"
-			(at 250.825 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 253.365 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.825 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.825 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 250.825 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e53024cd-37bd-421b-88f5-90ff9b1bf4e5")
-		)
-		(instances
-			(project "lissajouz"
-				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8097,7 +7915,7 @@
 	)
 	(symbol
 		(lib_id "voice_board-rescue:VEE-power")
-		(at 234.315 111.125 0)
+		(at 226.695 121.285 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8105,7 +7923,7 @@
 		(dnp no)
 		(uuid "76f1a325-f096-47b1-a4b2-155c554a2974")
 		(property "Reference" "#PWR031"
-			(at 234.315 114.935 0)
+			(at 226.695 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8114,7 +7932,7 @@
 			)
 		)
 		(property "Value" "VEE"
-			(at 234.7722 106.7308 0)
+			(at 227.1522 116.8908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8122,7 +7940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.315 111.125 0)
+			(at 226.695 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8131,7 +7949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.315 111.125 0)
+			(at 226.695 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8140,7 +7958,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.315 111.125 0)
+			(at 226.695 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9486,7 +9304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "type=\"B\" model=\"v=5800m\""
+		(property "Sim.Params" "type=\"B\" model=\"v=5000m\""
 			(at 207.772 76.7193 0)
 			(effects
 				(font
@@ -9593,7 +9411,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "1n"
 			(at 99.06 107.95 90)
 			(effects
 				(font
@@ -10397,128 +10215,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC546")
-		(at 239.395 116.205 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c030747b-e713-46e9-9f23-4cdc23a82c2f")
-		(property "Reference" "Q6"
-			(at 236.855 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC557"
-			(at 231.14 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 244.475 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 239.395 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 65V Vce, Small Signal NPN Transistor, TO-92"
-			(at 239.395 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "/home/flo/kicad-spice/BC546.lib"
-			(at 239.395 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "BC546B"
-			(at 239.395 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 239.395 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 239.395 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 239.395 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01e557da-8b48-47bc-a5f7-e446c36a0566")
-		)
-		(pin "2"
-			(uuid "4320f1c5-4124-40ba-b5e8-bc0dead34071")
-		)
-		(pin "3"
-			(uuid "d020e587-f9a5-4a4a-84ee-05c939a5b02f")
-		)
-		(instances
-			(project "lissajouz"
-				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 102.87 107.95 180)
 		(unit 1)
@@ -10856,127 +10552,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC546")
-		(at 229.235 116.205 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6b19c1c-a7dd-4c0e-84a6-3c258969d7e4")
-		(property "Reference" "Q7"
-			(at 231.775 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC557"
-			(at 237.49 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 224.155 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 229.235 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 65V Vce, Small Signal NPN Transistor, TO-92"
-			(at 229.235 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "/home/flo/kicad-spice/BC546.lib"
-			(at 229.235 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "BC546B"
-			(at 229.235 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 229.235 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 229.235 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 229.235 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0651fab2-b67f-4155-ade8-431cada93c11")
-		)
-		(pin "2"
-			(uuid "72c0a40e-6949-425d-80d7-ec87055ebf34")
-		)
-		(pin "3"
-			(uuid "6e2222e0-81d2-4c87-9903-ab9ff656d97d")
-		)
-		(instances
-			(project "lissajouz"
-				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VEE")
 		(at 73.025 36.83 180)
 		(unit 1)
@@ -11104,7 +10679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "type=\"B\" model=\"v=100m\""
+		(property "Sim.Params" "type=\"B\" model=\"v=1000m\""
 			(at 207.137 41.7943 0)
 			(effects
 				(font
@@ -11961,7 +11536,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "47k"
 			(at 226.695 123.19 90)
 			(effects
 				(font
@@ -11990,6 +11565,24 @@
 		)
 		(property "Description" ""
 			(at 226.695 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 453.39 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 453.39 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
