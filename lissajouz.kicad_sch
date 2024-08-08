@@ -4219,17 +4219,6 @@
 		)
 		(uuid "2e55bcd8-c1ff-47cc-8c97-838c69b0953b")
 	)
-	(text "set to ~47k"
-		(exclude_from_sim no)
-		(at 259.08 109.855 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5c415c1f-728a-42f7-afa2-10a7ad95a836")
-	)
 	(text "input preattenuation.\ncontrols distortion"
 		(exclude_from_sim no)
 		(at 208.915 158.115 90)
@@ -4262,6 +4251,16 @@
 			(justify right bottom)
 		)
 		(uuid "78045885-6f1c-4a38-8fa1-4b4348714200")
+	)
+	(text "47k-100k\n"
+		(exclude_from_sim no)
+		(at 262.255 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8551f994-3acd-4d94-839a-a1ad0a5e0e68")
 	)
 	(text ".options gmin=1e-10\n.options abstol=1e-10\n.options reltol=0.005\n.options cshunt=1e-15\n* .options rshunt=1T\n"
 		(exclude_from_sim no)
@@ -5233,7 +5232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "47k"
 			(at 35.56 41.91 0)
 			(effects
 				(font
@@ -6148,7 +6147,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "10k"
 			(at 41.275 33.02 90)
 			(effects
 				(font
@@ -6176,6 +6175,24 @@
 		)
 		(property "Description" ""
 			(at 41.275 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 82.55 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 82.55 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11129,7 +11146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "40k"
 			(at 212.09 147.955 0)
 			(effects
 				(font
