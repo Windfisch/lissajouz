@@ -1794,7 +1794,7 @@
 		(at 54 54)
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
-		(property "Reference" "REF**"
+		(property "Reference" "HOLE1"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(uuid "c7f05035-63b7-484e-9b55-8f1d82cc6ebe")
@@ -3288,7 +3288,7 @@
 		(at 146 54)
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
-		(property "Reference" "REF**"
+		(property "Reference" "HOLE2"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(uuid "f984f995-370d-4986-8274-c83fb51feaab")
@@ -6596,7 +6596,7 @@
 		(at 54 146)
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
-		(property "Reference" "REF**"
+		(property "Reference" "HOLE3"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(uuid "ac9daf2d-0854-4be8-982f-f6454335c974")
@@ -7235,7 +7235,7 @@
 		(at 146 146)
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
-		(property "Reference" "REF**"
+		(property "Reference" "HOLE4"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(uuid "6310c561-d181-45d9-b9ee-56557a3a9996")
