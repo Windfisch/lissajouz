@@ -4141,6 +4141,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 18.415) (xy 279.4 18.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2819ed93-7088-42c7-a277-22c9d3bae5d4")
+	)
+	(wire
+		(pts
 			(xy 198.12 138.43) (xy 201.295 138.43)
 		)
 		(stroke
@@ -4728,16 +4738,6 @@
 			(type default)
 		)
 		(uuid "59902aed-5d2f-430f-879d-2a70bed577b5")
-	)
-	(wire
-		(pts
-			(xy 319.405 165.1) (xy 319.405 174.625)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5af598a1-c45f-433c-9812-62cd2c0444df")
 	)
 	(wire
 		(pts
@@ -6336,7 +6336,7 @@
 		)
 		(uuid "1dfb0037-038c-4169-b880-25d4ea8cd092")
 	)
-	(label "tri_x"
+	(label "tri_y"
 		(at 74.93 15.24 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6358,7 +6358,7 @@
 		)
 		(uuid "add941b0-5b55-48e2-bb4e-941b3f97a95e")
 	)
-	(label "tri_y"
+	(label "tri_x"
 		(at 74.93 60.96 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6475,7 +6475,7 @@
 			)
 		)
 	)
-	(global_label "V_xfreq"
+	(global_label "V_yfreq"
 		(shape input)
 		(at 27.305 20.955 180)
 		(effects
@@ -6517,7 +6517,7 @@
 			)
 		)
 	)
-	(global_label "lfo_yfreq"
+	(global_label "lfo_xfreq"
 		(shape input)
 		(at 27.305 76.835 180)
 		(effects
@@ -6625,7 +6625,7 @@
 	)
 	(global_label "lfo_syncphase"
 		(shape input)
-		(at 319.405 165.1 180)
+		(at 351.79 184.785 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6634,7 +6634,7 @@
 		)
 		(uuid "334b5168-f542-4a7b-aced-484a09b8fda1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.405 165.1 0)
+			(at 351.79 184.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,7 +6643,7 @@
 			)
 		)
 	)
-	(global_label "sync_x"
+	(global_label "sync_y"
 		(shape input)
 		(at 74.93 42.545 180)
 		(effects
@@ -6683,7 +6683,7 @@
 			)
 		)
 	)
-	(global_label "V_yfreq"
+	(global_label "V_xfreq"
 		(shape input)
 		(at 27.305 66.675 180)
 		(effects
@@ -6703,7 +6703,7 @@
 			)
 		)
 	)
-	(global_label "out_x"
+	(global_label "out_y"
 		(shape input)
 		(at 164.465 29.845 0)
 		(fields_autoplaced yes)
@@ -6715,7 +6715,7 @@
 		)
 		(uuid "52907177-8d97-48b0-917b-3c629a627a20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.4696 29.845 0)
+			(at 172.4091 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,7 +6745,7 @@
 			)
 		)
 	)
-	(global_label "lfo_xfreq"
+	(global_label "lfo_yfreq"
 		(shape input)
 		(at 27.305 31.115 180)
 		(effects
@@ -6875,7 +6875,7 @@
 			)
 		)
 	)
-	(global_label "out_y"
+	(global_label "out_x"
 		(shape input)
 		(at 164.465 75.565 0)
 		(fields_autoplaced yes)
@@ -6887,7 +6887,7 @@
 		)
 		(uuid "8569b041-016c-4e6b-921c-cf6e05cf06f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.4091 75.565 0)
+			(at 172.4696 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6961,7 +6961,7 @@
 			)
 		)
 	)
-	(global_label "V_xfreq_fine"
+	(global_label "V_yfreq_fine"
 		(shape input)
 		(at 27.305 26.035 180)
 		(effects
@@ -6981,7 +6981,7 @@
 			)
 		)
 	)
-	(global_label "sync_y"
+	(global_label "sync_x"
 		(shape input)
 		(at 74.93 88.265 180)
 		(effects
@@ -7023,7 +7023,7 @@
 			)
 		)
 	)
-	(global_label "V_yfreq_fine"
+	(global_label "V_xfreq_fine"
 		(shape input)
 		(at 27.305 71.755 180)
 		(effects
@@ -7067,7 +7067,7 @@
 	)
 	(global_label "lfo_syncfreq"
 		(shape input)
-		(at 319.405 168.275 180)
+		(at 351.79 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7077,7 +7077,7 @@
 		)
 		(uuid "bb9bdf53-a4ae-4f09-8d2f-da11d99c487a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.9295 168.275 0)
+			(at 337.3145 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,7 +7131,7 @@
 	)
 	(global_label "lfo_xfreq"
 		(shape input)
-		(at 319.405 174.625 180)
+		(at 314.96 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7141,7 +7141,7 @@
 		)
 		(uuid "d280f2d2-628b-4cbb-a582-de6b9b405658")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.1347 174.625 0)
+			(at 303.6897 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7197,7 +7197,7 @@
 	)
 	(global_label "lfo_yfreq"
 		(shape input)
-		(at 319.405 171.45 180)
+		(at 314.96 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7207,7 +7207,7 @@
 		)
 		(uuid "e5e3e722-c5f3-466e-9ead-2cdd6ee01f7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.1952 171.45 0)
+			(at 303.7502 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7734,7 +7734,7 @@
 		(lib_id "Amplifier_Operational:LM324")
 		(at 84.455 133.985 0)
 		(mirror x)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7865,7 +7865,7 @@
 			(project "lissajouz"
 				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
 					(reference "U3")
-					(unit 2)
+					(unit 4)
 				)
 			)
 		)
@@ -9546,7 +9546,7 @@
 		(lib_id "Amplifier_Operational:LM324")
 		(at 207.645 124.46 0)
 		(mirror x)
-		(unit 4)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9677,7 +9677,7 @@
 			(project "lissajouz"
 				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
 					(reference "U3")
-					(unit 4)
+					(unit 2)
 				)
 			)
 		)
@@ -10779,6 +10779,72 @@
 			(project "lissajouz"
 				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 314.96 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36491ddb-91c8-404d-ba44-534bf6b80251")
+		(property "Reference" "#PWR085"
+			(at 314.96 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 315.087 199.9742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 314.96 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b9c2bc9-2272-46e6-ad58-7b97eb75a007")
+		)
+		(instances
+			(project "lissajouz"
+				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -12803,7 +12869,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp"
+		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
 			(at 274.32 132.08 0)
 			(effects
 				(font
@@ -14670,6 +14736,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 275.59 18.415 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "709c0844-aecc-4f5b-aa05-6a4801555b87")
+		(property "Reference" "#PWR083"
+			(at 275.59 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 275.463 22.8092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 275.59 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b5dc93d-3e01-4faf-84c9-0f34bb993c1b")
+		)
+		(instances
+			(project "lissajouz"
+				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:BC546")
 		(at 120.65 39.37 0)
 		(unit 1)
@@ -15965,6 +16098,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:BSOURCE")
+		(at 351.79 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "81dd550c-1c47-4e3c-9ab9-8e47b81b86f7")
+		(property "Reference" "B10"
+			(at 355.092 170.2957 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSOURCE"
+			(at 355.092 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Non_linear_Dependent_Sources"
+			(at 351.79 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Arbitrary behavioral voltage or current source for simulation only"
+			(at 351.79 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 351.79 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"B\" model=\"v=0\""
+			(at 355.092 175.1443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "3620cebd-fc33-4b52-ad72-2e1338a45399")
+		)
+		(pin "1"
+			(uuid "9decbe8e-80df-41a0-8ef8-6872a1990fab")
+		)
+		(instances
+			(project "lissajouz"
+				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
+					(reference "B10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:2N7000")
 		(at 52.705 95.885 0)
 		(mirror y)
@@ -16355,7 +16575,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:BSOURCE")
-		(at 319.405 179.705 0)
+		(at 314.96 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -16363,7 +16583,7 @@
 		(dnp no)
 		(uuid "8959bfea-c4c7-4850-ad60-24cd0101adea")
 		(property "Reference" "B8"
-			(at 322.707 177.2807 0)
+			(at 318.262 170.2957 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16372,7 +16592,7 @@
 			)
 		)
 		(property "Value" "BSOURCE"
-			(at 322.707 179.705 0)
+			(at 318.262 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16381,7 +16601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 319.405 179.705 0)
+			(at 314.96 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16390,7 +16610,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Non_linear_Dependent_Sources"
-			(at 319.405 196.215 0)
+			(at 314.96 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16399,7 +16619,7 @@
 			)
 		)
 		(property "Description" "Arbitrary behavioral voltage or current source for simulation only"
-			(at 319.405 179.705 0)
+			(at 314.96 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16408,7 +16628,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 319.405 179.705 0)
+			(at 314.96 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16417,7 +16637,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"B\" model=\"v=0\""
-			(at 322.707 182.1293 0)
+			(at 318.262 175.1443 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18400,6 +18620,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 351.79 194.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1d55496-b0db-49f9-8a9c-1842c014a734")
+		(property "Reference" "#PWR087"
+			(at 351.79 201.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 351.917 199.3392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 194.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 194.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 351.79 194.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ea2dcdf-5d49-4030-b948-99d457afb9c5")
+		)
+		(instances
+			(project "lissajouz"
+				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 267.335 24.765 0)
 		(mirror y)
@@ -20046,6 +20332,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 279.4 18.415 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "beac04e5-da46-4e8d-ad71-27b5c20db7c6")
+		(property "Reference" "#PWR084"
+			(at 279.4 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 279.4 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2f4635b-4e76-4c3b-a313-22120f91a26f")
+		)
+		(instances
+			(project "lissajouz"
+				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 71.12 34.925 90)
 		(unit 1)
@@ -20818,8 +21171,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:BSOURCE")
+		(at 351.79 189.865 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "c7e74c30-95ff-41ac-aa05-596d98080449")
+		(property "Reference" "B11"
+			(at 355.092 187.4407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSOURCE"
+			(at 355.092 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Non_linear_Dependent_Sources"
+			(at 351.79 206.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Arbitrary behavioral voltage or current source for simulation only"
+			(at 351.79 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 351.79 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"B\" model=\"v=0\""
+			(at 355.092 192.2893 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "921ca405-709c-4242-8129-58ade152947a")
+		)
+		(pin "1"
+			(uuid "9109b0fb-9bfe-4b3e-92d1-746d25c4e8c3")
+		)
+		(instances
+			(project "lissajouz"
+				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
+					(reference "B11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 319.405 184.785 0)
+		(at 314.96 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20827,7 +21267,7 @@
 		(dnp no)
 		(uuid "c841beb9-0f49-45d3-a1ff-5495e0e22473")
 		(property "Reference" "#PWR074"
-			(at 319.405 191.135 0)
+			(at 314.96 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20836,7 +21276,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 319.532 189.1792 0)
+			(at 315.087 182.1942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20845,7 +21285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 319.405 184.785 0)
+			(at 314.96 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20854,7 +21294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 319.405 184.785 0)
+			(at 314.96 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20863,7 +21303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 319.405 184.785 0)
+			(at 314.96 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22752,6 +23192,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:BSOURCE")
+		(at 314.96 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "e4dd4425-adc0-4941-82ab-b42c6d9dce33")
+		(property "Reference" "B9"
+			(at 318.262 188.0757 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSOURCE"
+			(at 318.262 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Non_linear_Dependent_Sources"
+			(at 314.96 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Arbitrary behavioral voltage or current source for simulation only"
+			(at 314.96 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 314.96 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"B\" model=\"v=0\""
+			(at 318.262 192.9243 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "beb9ed80-0656-499c-a932-13da11feff9f")
+		)
+		(pin "1"
+			(uuid "24db2754-9b25-4f3b-94af-48fdf9a37935")
+		)
+		(instances
+			(project "lissajouz"
+				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
+					(reference "B9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 126.365 48.26 0)
 		(mirror y)
@@ -23456,6 +23983,72 @@
 			(project "lissajouz"
 				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 351.79 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec34275f-3588-4c3b-9722-4d5f9b9d24a9")
+		(property "Reference" "#PWR086"
+			(at 351.79 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 351.917 182.1942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 351.79 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28e8acb0-dc65-4d88-91a5-4e79c5fd7218")
+		)
+		(instances
+			(project "lissajouz"
+				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
