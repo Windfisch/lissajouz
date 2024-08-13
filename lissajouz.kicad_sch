@@ -4621,16 +4621,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 15.24) (xy 110.49 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ef6b74f-afa5-4c45-a2ef-e151813ca28d")
-	)
-	(wire
-		(pts
 			(xy 229.235 122.555) (xy 229.235 116.84)
 		)
 		(stroke
@@ -5271,6 +5261,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 15.24) (xy 110.49 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7e1df6-44c5-44d2-8c3b-283f5cbdb757")
+	)
+	(wire
+		(pts
 			(xy 61.595 62.865) (xy 55.245 62.865)
 		)
 		(stroke
@@ -5418,6 +5418,16 @@
 			(type default)
 		)
 		(uuid "a604b175-f66a-4d0c-8bfa-2ac5b2788a48")
+	)
+	(wire
+		(pts
+			(xy 110.49 60.96) (xy 110.49 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6457a9f-73e6-407b-90a9-96b4081ead3d")
 	)
 	(wire
 		(pts
@@ -5678,16 +5688,6 @@
 			(type default)
 		)
 		(uuid "c560e846-8a63-4437-b660-f1f390463ecc")
-	)
-	(wire
-		(pts
-			(xy 110.49 60.96) (xy 110.49 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5774196-7e74-4b61-a1a6-762bacbf8120")
 	)
 	(wire
 		(pts
@@ -7597,7 +7597,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "06d08e77-09fb-4130-b67e-e40d54ad0a41")
 		(property "Reference" "RV4"
 			(at 258.5721 115.6278 0)
@@ -7617,7 +7616,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "footprints:my_poti_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 260.35 116.84 0)
 			(effects
 				(font
@@ -7725,6 +7724,76 @@
 			(project "lissajouz"
 				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 27.94 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0846c928-5051-4f75-a2b3-355486b54b30")
+		(property "Reference" "R70"
+			(at 112.395 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 110.49 26.035 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 108.712 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c138dac-efe9-4e94-84b4-d4e1f1f3b529")
+		)
+		(pin "2"
+			(uuid "9a09f648-d61e-4c6d-bec9-0ee8b29e9e20")
+		)
+		(instances
+			(project "lissajouz"
+				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -8119,7 +8188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "footprints:my_poti_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 108.712 35.56 90)
 			(effects
 				(font
@@ -9776,7 +9845,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2694d8f6-16b2-4ebe-a14d-ea8413917fdb")
 		(property "Reference" "RV14"
 			(at 107.4421 175.3178 0)
@@ -9796,7 +9864,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "footprints:my_poti_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 109.22 176.53 0)
 			(effects
 				(font
@@ -10080,7 +10148,7 @@
 		(dnp no)
 		(uuid "2d5d5984-3b48-4850-9319-ed74d8fc67a9")
 		(property "Reference" "R21"
-			(at 119.38 66.04 0)
+			(at 117.475 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11395,7 +11463,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ca83e81-760b-42ee-bc08-7d8571adbe69")
 		(property "Reference" "RV2"
 			(at 234.4421 115.6278 0)
@@ -11415,7 +11482,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "footprints:my_poti_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 236.22 116.84 0)
 			(effects
 				(font
@@ -11892,7 +11959,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4148c653-f171-429c-b8c2-be4f0b4a2337")
 		(property "Reference" "RV9"
 			(at 94.7421 175.3178 0)
@@ -11912,7 +11978,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "footprints:my_poti_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 96.52 176.53 0)
 			(effects
 				(font
@@ -15138,7 +15204,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "75742bf5-5c7d-4331-8cbd-6bac6728c361")
 		(property "Reference" "RV12"
 			(at 45.8471 175.3178 0)
@@ -15158,7 +15223,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "footprints:my_poti_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 47.625 176.53 0)
 			(effects
 				(font
@@ -15533,7 +15598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "footprints:my_poti_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 48.387 86.995 90)
 			(effects
 				(font
@@ -15650,7 +15715,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7b9864eb-ef12-4eb1-abfa-44957eb62c00")
 		(property "Reference" "RV1"
 			(at 222.3771 115.6278 0)
@@ -15670,7 +15734,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "footprints:my_poti_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 224.155 116.84 0)
 			(effects
 				(font
@@ -15808,7 +15872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "footprints:my_poti_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 48.387 41.275 90)
 			(effects
 				(font
@@ -16435,10 +16499,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "86826bad-6748-4f99-920f-c62d97ecb55e")
 		(property "Reference" "RV10"
-			(at 195.072 63.5578 0)
+			(at 194.945 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16447,7 +16510,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 195.072 65.9821 0)
+			(at 194.945 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16508,7 +16571,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "876e1e29-c393-45e3-8967-038a82c9be0a")
 		(property "Reference" "RV8"
 			(at 82.0421 175.3178 0)
@@ -16528,7 +16590,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "footprints:my_poti_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 83.82 176.53 0)
 			(effects
 				(font
@@ -19027,7 +19089,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a58aadd1-a1f1-4ddf-9906-e80afac93bbf")
 		(property "Reference" "RV7"
 			(at 69.9771 175.3178 0)
@@ -19047,7 +19108,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "footprints:my_poti_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 71.755 176.53 0)
 			(effects
 				(font
@@ -20971,7 +21032,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c48df902-a5ad-4a85-9f90-ee71aba1cba1")
 		(property "Reference" "RV13"
 			(at 57.9121 175.3178 0)
@@ -20991,7 +21051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "footprints:my_poti_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 59.69 176.53 0)
 			(effects
 				(font
@@ -21502,7 +21562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "footprints:my_poti_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 108.712 81.28 90)
 			(effects
 				(font
@@ -23650,7 +23710,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e8c47be2-108f-47a7-8a4a-a19fab75d09e")
 		(property "Reference" "RV5"
 			(at 21.0821 175.3178 0)
@@ -23670,7 +23729,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "footprints:my_poti_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 22.86 176.53 0)
 			(effects
 				(font
@@ -23723,7 +23782,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e9ccc983-cf29-4839-8572-cb737cc24416")
 		(property "Reference" "RV6"
 			(at 33.1471 175.3178 0)
@@ -23743,7 +23801,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "footprints:my_poti_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 34.925 176.53 0)
 			(effects
 				(font
@@ -24872,7 +24930,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fd28c4cc-eca8-4c5d-9972-64eda40500c5")
 		(property "Reference" "RV3"
 			(at 246.5071 115.6278 0)
@@ -24892,7 +24949,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "footprints:my_poti_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 248.285 116.84 0)
 			(effects
 				(font
@@ -25004,6 +25061,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 110.49 73.66 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd9f543e-5084-43e3-a2dc-f9e7dc80475b")
+		(property "Reference" "R71"
+			(at 112.395 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 110.49 71.755 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 108.712 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1816e8c4-46bd-4bff-a92b-169689699134")
+		)
+		(pin "2"
+			(uuid "7a322ff6-7095-4d20-815f-76fd881754c3")
+		)
+		(instances
+			(project "lissajouz"
+				(path "/411c8e98-f01c-4ee2-9630-e2b01df2741b"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 129.54 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25081,7 +25208,7 @@
 		(dnp no)
 		(uuid "ffd4f796-0d30-43a9-b558-74ad28613795")
 		(property "Reference" "RV11"
-			(at 195.0721 81.3378 0)
+			(at 194.945 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25090,7 +25217,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 195.0721 83.7621 0)
+			(at 194.945 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
