@@ -8075,7 +8075,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 274.32 139.7 0)
 			(effects
 				(font
@@ -12454,7 +12454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:switch8x8"
 			(at 236.22 125.73 0)
 			(effects
 				(font
@@ -13334,7 +13334,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 274.32 132.08 0)
 			(effects
 				(font
@@ -19047,7 +19047,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:switch8x8"
 			(at 129.54 135.255 0)
 			(effects
 				(font
@@ -22248,7 +22248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:switch8x8"
 			(at 224.155 125.73 0)
 			(effects
 				(font
@@ -22946,7 +22946,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:switch8x8"
 			(at 129.54 109.22 0)
 			(effects
 				(font
